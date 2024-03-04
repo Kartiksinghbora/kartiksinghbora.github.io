@@ -1,0 +1,263 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(9, 9, 9);
+}
+
+.container {
+    overflow-x: hidden;
+}
+
+.slider {
+    display: flex;
+    width: 400vw;
+}
+
+section {
+    height: 100vh;
+    width: 100%;
+}
+
+.box1 {
+    margin: 7em;
+    position: relative;
+    color: white;
+    text-align: center;
+
+    h1 {
+        text-transform: uppercase;
+        font-size: 130px;
+        font-weight: 900;
+    }
+
+    p {
+        font-size: 90px;
+        font-family: "Protest Guerrilla", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        text-align: end;
+        margin: -10px 50px 0 0;
+    }
+
+    .content {
+        margin-top: 3.48em;
+        text-align: justify;
+        font-size: 22px;
+        width: 100%;
+        font-weight: bolder;
+    }
+
+    .nav-content {
+        display: flex;
+        justify-content: end;
+        color: antiquewhite;
+        margin-top: 6cqi;
+        /* background-color: red; */
+        width: 100%;
+
+        h4 {
+            font-size: 1.2em;
+        }
+
+        img {
+            width: 4vh;
+            margin-left: 5px
+        }
+    }
+}
+
+/* section 2 */
+.box2 {
+    margin: 7em;
+    position: relative;
+    color: white;
+    text-align: center;
+
+
+    .myself {
+        display: flex;
+        justify-content: space-evenly;
+        text-align: start;
+
+        .myself-content h3 {
+            font-family: "Amita", serif;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 90px;
+
+            h4 {
+                font-size: 1.2em;
+                text-align: justify;
+
+            }
+        }
+
+        .myself-image {
+            img {
+                width: 60vh;
+                margin-top: -20px;
+            }
+        }
+    }
+
+    .nav-content {
+        display: flex;
+        /* background-color: red; */
+        justify-content: space-between;
+        margin-top: 2.6cqi;
+        width: 100%;
+        color: antiquewhite;
+
+        .leftside {
+            display: flex;
+
+            h4 {
+                font-size: 1.2em;
+                margin-left: 5px
+            }
+
+            img {
+                width: 4vh;
+            }
+        }
+
+        .rightside {
+            display: flex;
+
+            h4 {
+                font-size: 1.2em;
+            }
+
+            img {
+                width: 4vh;
+                margin-left: 5px
+            }
+        }
+    }
+
+}
+
+/* section 3 */
+.box3 {
+    margin: 7em;
+    position: relative;
+    color: white;
+    text-align: center;
+
+    h3 {
+        font-family: "Amita", serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 90px;
+        text-align: start;
+    }
+
+    .projects {
+       display: flex;
+       justify-content: flex-start;
+       gap: 120px;
+       margin-top: 1em;
+
+        .img img {
+            height: 220px;
+            width: 300px;
+            /* margin-left: 50px; */
+            cursor: pointer;
+        }
+    }
+
+    .nav-content {
+        display: flex;
+        /* background-color: red; */
+        justify-content: space-between;
+        margin-top: 10.5em;
+        width: 100%;
+        color: antiquewhite;
+
+        .leftside {
+            display: flex;
+
+            h4 {
+                font-size: 1.2em;
+                margin-left: 5px
+            }
+
+            img {
+                width: 4vh;
+            }
+        }
+
+        .rightside {
+            display: flex;
+
+            h4 {
+                font-size: 1.2em;
+            }
+
+            img {
+                width: 4vh;
+                margin-left: 5px
+            }
+        }
+    }
+
+
+}
+
+/* section 4*/
+
+.box4{
+    margin: 7em;
+    margin-top: 10em;
+    position: relative;
+    color: white;
+    text-align: center;
+
+    .sociallinks{
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+
+        img{
+            width: 50px;
+            height: 50px;
+        }
+    }
+
+    #contact {
+        margin-top: 50px;
+        font-size: 45px;
+        font-family: 'Rozha One', serif;
+
+        .name{
+            margin-top: 3.5em;
+
+            a{
+                color: white;
+                text-decoration: none;
+            }
+        }
+    }
+
+    .nav-content {
+        display: flex;
+        justify-content: start;
+        color: antiquewhite;
+        margin-top: 5em;
+        /* background-color: red; */
+        width: 100%;
+
+        h4 {
+            font-size: 1.2em;
+        }
+
+        img {
+            width: 4vh;
+            margin-left: 5px
+        }
+    }
+}

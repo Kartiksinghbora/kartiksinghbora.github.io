@@ -1,0 +1,237 @@
+@media (max-width:500px) {
+
+    .slider {
+        display: flex;
+        width: 700vw;
+    }
+
+    .box1 {
+        width: 100vw;
+        height: 100vh;
+        margin-left: 0px;
+        padding: 10px;
+        margin-top: 20px;
+
+        h1 {
+            font-size: 42px;
+            width: 100%;
+        }
+
+        p {
+            font-size: 35px;
+            margin-top: 0px;
+        }
+
+        .content h4 {
+            margin-top: 6em;
+            font-size: 18px;
+        }
+
+        .nav-content {
+            display: none;
+        }
+    }
+
+
+    .box2 {
+        width: 100vw;
+        height: 100vh;
+        margin-left: 0px;
+        padding: 10px;
+        margin-top: 20px;
+
+        .myself .myself-content h3 {
+            font-size: 35px;
+        }
+
+        .myself .myself-content h4 {
+            font-size: 18px;
+            text-align: justify;
+        }
+
+        .nav-content {
+            display: none;
+        }
+
+        .myself-image img {
+            display: none;
+        }
+    }
+
+    .box3 {
+        width: 100vw;
+        height: 100vh;
+        margin-left: 0px;
+        padding: 10px;
+        margin-top: 20px;
+
+        h3 {
+            font-size: 30px
+        }
+
+        .projects {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 50px;
+            justify-content: center;
+
+            .img img {
+                height: 150px;
+                width: 250px;
+                margin-top: 20px;
+            }
+        }
+
+        .nav-content {
+            display: none;
+        }
+    }
+
+
+}
+
+
+@media (max-width:415px) {
+
+    .slider {
+        display: flex;
+        width: 600vw;
+    }
+
+    .box1 {
+        width: 100vw;
+        height: 100vh;
+        margin-left: 0px;
+        padding: 10px;
+
+        h1 {
+            font-size: 35px;
+            width: 100%;
+        }
+
+        p {
+            font-size: 30px;
+            margin: -5px 10px 0 0;
+        }
+
+        .content h4 {
+            margin-top: 6em;
+            font-size: 18px;
+        }
+
+        .nav-content {
+            display: none;
+        }
+    }
+
+    .box2 {
+        width: 100vw;
+        height: 100vh;
+        margin-left: 0px;
+        padding: 10px;
+        margin-top: 20px;
+
+        .myself .myself-content h3 {
+            font-size: 30px;
+        }
+
+        .myself .myself-content h4 {
+            font-size: 18px;
+            text-align: justify;
+        }
+
+        .myself-image img {
+            display: none;
+        }
+
+        .nav-content {
+            display: none;
+        }
+    }
+
+    .box3 {
+        width: 100vw;
+        height: 100vh;
+        margin-left: 0px;
+        padding: 10px;
+        margin-top: 20px;
+
+        h3 {
+            font-size: 30px
+        }
+
+        .projects {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 50px;
+            justify-content: center;
+
+            .img img {
+                height: 100px;
+                width: 150px;
+                margin-top: 20px;
+            }
+        }
+
+        .nav-content {
+            display: none;
+        }
+    }
+
+    .box4 {
+        width: 100vw;
+        height: 100vh;
+        margin-left: 0px;
+        padding: 10px;
+        margin-top: 20px;
+
+        .sociallinks{
+            margin-top: 50px;
+        }
+    
+        #contact {
+            margin-top: 50px;
+            font-size: 30px;
+            font-family: 'Rozha One', serif;
+        }
+
+        .nav-content {
+            display: none;
+        }
+
+    }
+}
+
+
+@media (max-width:376px) {
+    .box3 {
+        width: 100vw;
+        height: 100vh;
+        margin-left: 0px;
+        padding: 10px;
+        margin-top: 20px;
+
+        h3 {
+            font-size: 30px
+        }
+
+        .projects {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 50px;
+            justify-content: center;
+
+            .img img {
+                height: 120px;
+                width: 150px;
+                margin-top: 20px;
+                /* background-color: red; */
+            }
+        }
+
+        .nav-content {
+            display: none;
+        }
+    }
+
+}
