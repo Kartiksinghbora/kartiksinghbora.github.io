@@ -1,8 +1,141 @@
+ @media (max-width:768px) {
+
+    .slider {
+        display: flex;
+        width: 510vw;
+    }
+
+    .box1 {
+        width: 100vw;
+        height: 100vh;
+        margin-left: 0px;
+        padding: 10px;
+        margin-top: 20px;
+
+        h1 {
+            font-size: 60px;
+            width: 100%;
+        }
+
+        p {
+            font-size: 45px;
+            margin-top: 0px;
+            margin-right: 55px
+        }
+
+        .content h4 {
+            margin-top: 6em;
+            font-size: 20px;
+            line-height: 28px;
+        }
+
+        .nav-content {
+            display: none;
+        }
+    }
+
+
+    .box2 {
+        width: 100vw;
+        height: 100vh;
+        margin-left: 0px;
+        padding: 10px;
+        margin-top: 20px;
+
+        .myself .myself-content h3 {
+            font-size: 45px;
+        }
+
+        .myself .myself-content h4 {
+            font-size: 20px;
+            line-height: 28px;
+            text-align: justify;
+        }
+
+        .nav-content {
+            display: none;
+        }
+
+        .myself-image img {
+            display: none;
+        }
+    }
+
+    .box3 {
+        width: 100vw;
+        height: 100vh;
+        margin-left: 0px;
+        padding: 10px;
+        margin-top: 20px;
+
+        h3 {
+            font-size: 30px
+        }
+
+        .projects {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 50px;
+            justify-content: center;
+
+            .img img {
+                height: 200px;
+                width: 300px;
+                gap: 50px;
+                margin-top: 20px;
+            }
+        }
+
+        .nav-content {
+            display: none;
+       
+        }
+    }
+
+    .box4 {
+        width: 100vw;
+        height: 100vh;
+        margin-left: 0px;
+        padding: 10px;
+        margin-top: 20px;
+
+        .sociallinks {
+            margin-top: 50px;
+        }
+
+        #contact {
+            margin-top: 50px;
+            font-size: 40px;
+            font-family: 'Rozha One', serif;
+        }
+
+        .nav-content {
+            display: none;
+        }
+    }   
+} 
+
+@media (max-width:658px) {
+
+    .box1 {
+        width: 100vw;
+        height: 100vh;
+        margin-left: 0px;
+        padding: 10px;
+        margin-top: 20px;
+
+        h1 {
+            font-size: 45px;
+            width: 100%;
+        }
+    }
+}
+
 @media (max-width:500px) {
 
     .slider {
         display: flex;
-        width: 700vw;
+        width: 510vw;
     }
 
     .box1 {
@@ -31,7 +164,6 @@
             display: none;
         }
     }
-
 
     .box2 {
         width: 100vw;
@@ -76,8 +208,8 @@
             justify-content: center;
 
             .img img {
-                height: 150px;
-                width: 250px;
+                height: 125px;
+                width: 220px;
                 margin-top: 20px;
             }
         }
@@ -87,16 +219,48 @@
         }
     }
 
+    .box4 {
+        width: 100vw;
+        height: 100vh;
+        margin-left: 0px;
+        padding: 10px;
+        margin-top: 20px;
 
+        .sociallinks {
+            margin-top: 50px;
+        }
+
+        #contact {
+            margin-top: 50px;
+            font-size: 30px;
+            font-family: 'Rozha One', serif;
+        }
+
+        .nav-content {
+            display: none;
+        }
+    }
+}
+
+@media (max-width:431px) {
+
+    .box1 {
+
+        h1 {
+            text-transform: uppercase;
+            font-size: 35px;
+            font-weight: 900;
+        }
+
+        p {
+            font-size: 30px;
+            margin: -5px 20px 0 0;
+        }
+    }
 }
 
 
 @media (max-width:415px) {
-
-    .slider {
-        display: flex;
-        width: 600vw;
-    }
 
     .box1 {
         width: 100vw;
@@ -164,7 +328,6 @@
             display: flex;
             flex-wrap: wrap;
             gap: 50px;
-            justify-content: center;
 
             .img img {
                 height: 150px;
@@ -185,10 +348,10 @@
         padding: 10px;
         margin-top: 20px;
 
-        .sociallinks{
+        .sociallinks {
             margin-top: 50px;
         }
-    
+
         #contact {
             margin-top: 50px;
             font-size: 30px;
@@ -202,8 +365,21 @@
     }
 }
 
-
 @media (max-width:376px) {
+
+    .box1 {
+
+        h1 {
+            text-transform: uppercase;
+            font-size: 30px;
+            font-weight: 900;
+        }
+
+        p {
+            margin: -5px 20px 0 0;
+        }
+    }
+
     .box3 {
         width: 100vw;
         height: 100vh;
@@ -222,10 +398,9 @@
             justify-content: center;
 
             .img img {
-                height: 120px;
-                width: 150px;
+                height: 130px;
+                width: 180px;
                 margin-top: 20px;
-                /* background-color: red; */
             }
         }
 
