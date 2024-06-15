@@ -1,0 +1,127 @@
+@media screen and (max-width:768px) {
+    .links {
+        display: none;
+    }
+
+    .navinlinks {
+        display: none;
+    }
+
+    .profile {
+        width: 97.6%;
+        margin-left: 5px;
+    }
+
+    .profile .resume {
+        padding-bottom: 20px;
+    }
+
+    .what-i-do {
+        width: 97.6%;
+        margin-left: 5px;
+    }
+
+    .what-i-do .skills {
+        flex-wrap: wrap;
+        row-gap: 25px;
+
+    }
+
+    .what-i-do .skills img {
+        width: 70px;
+        height: 70px;
+    }
+
+    .what-i-do #skills2 {
+        margin-top: 18px;
+    }
+
+    .nav-content {
+        width: 97.6%;
+        margin-left: 5px;
+        display: block;
+    }
+
+    .contact {
+        width: 97.6%;
+        margin-left: 5px;
+        padding-bottom: 90px;
+
+    }
+
+    .contact form .column {
+        flex-wrap: wrap;
+        row-gap: 10px;
+    }
+
+    .contact form textarea {
+        width: 350px;
+        height: 150px;
+        margin-top: -10px;
+    }
+
+    .records {
+        width: 97.6%;
+        margin-left: 5px;
+    }
+
+    .certificates {
+        flex-wrap: wrap;
+        row-gap: 20px;
+    }
+
+    .certificates a img {
+        width: 20vh;
+    }
+
+    #certificates2 {
+        margin-top: 20px;
+    }
+
+    .projects {
+        width: 97.6%;
+        margin-left: 5px;
+    }
+
+    .handling {
+        flex-wrap: wrap;
+        row-gap: 20px;
+    }
+}
+
+
+@media screen and (max-width:980px) and (min-width:768px) {
+    .what-i-do .skills {
+        overflow: hidden;
+        flex-wrap: wrap;
+        row-gap: 25px;
+    }
+
+    .certificates {
+        flex-wrap: wrap;
+        row-gap: 20px;
+    }
+
+    #certificates2 {
+        margin-top: 22px;
+    }
+
+
+}
+
+@media screen and (max-width:1024px) and (min-width:980px) {
+    .what-i-do .skills {
+        overflow: hidden;
+        flex-wrap: wrap;
+        row-gap: 25px;
+    }
+
+    .certificates {
+        flex-wrap: wrap;
+        row-gap: 20px;
+    }
+
+    #certificates2 {
+        margin-top: 22px;
+    }
+}

@@ -1,0 +1,290 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #19202E;
+}
+
+nav {
+    color: white;
+    margin-top: 12px;
+    justify-content: space-between;
+}
+
+.rect {
+    display: flex;
+    column-gap: 10px;
+    margin-left: 40px;
+}
+
+.rect a {
+    color: white;
+}
+
+.rect a #lg-dk {
+    width: 5vh;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    margin-left: 30px;
+
+}
+
+.links a img {
+    width: 5.5vh;
+    background-color: #21293a;
+    padding: 10px;
+    border-radius: 50px;
+
+}
+
+.hire {
+    text-align: end;
+    margin-right: 20px;
+}
+
+.hire button {
+    width: 170px;
+    height: 40px;
+    background-color: #2b36495f;
+    color: white;
+    border-radius: 50px;
+    border: none;
+    font-weight: 700;    
+}
+
+.navigation {
+    background-color: #21293a;
+    width: 80px;
+    padding: 20px 7px;
+    text-align: center;
+    line-height: 50px;
+    margin-left: 20px;
+    margin-top: 100px;
+    border-radius: 3px;
+    position: fixed;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: whitesmoke;
+    text-align: center;
+    font-weight: 500
+}
+
+.navigation a img {
+    width: 5vh;
+}
+
+.profile {
+    text-align: center;
+    background-color: #1b2437f4;
+    color: white;
+    width: 70%;
+    margin-top: 100px;
+    border-radius: 3px;
+    padding-bottom: 30px;
+}
+
+.profile .photo {
+    position: relative;
+    top: -70px;
+    width: 100%;
+}
+
+.profile .photo img {
+    width: 20vh;
+    border-radius: 50%;
+    height: 170px;
+}
+
+.profile h3 {
+    margin-top: -50px;
+}
+
+.profile p {
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;
+    /* text-align: justify; */
+}
+
+.profile p a {
+    text-decoration: none;
+    color: blue;
+}
+
+.profile p a:hover {
+    text-decoration: underline;
+}
+
+.profile .resume button {
+    margin-top: 30px;
+    border: none;
+    color: white;
+    background-color: #2b36495f;
+    width: 150px;
+    height: 40px;
+    border-radius: 50px;
+    font-weight: 700;
+}
+
+.what-i-do {
+    text-align: center;
+    background-color: #1b2437f4;
+    color: white;
+    width: 70%;
+    margin-top: 30px;
+    border-radius: 3px;
+    padding-bottom: 50px;
+}
+
+.what-i-do h3 {
+    margin-top: 20px;
+}
+
+.what-i-do p {
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.skills {
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+    margin-top: 50px;
+}
+
+.skills img {
+    width: 90px;
+    height: 80px;
+}
+
+.projects {
+    text-align: center;
+    background-color: #1b2437f4;
+    color: white;
+    width: 70%;
+    margin-top: 30px;
+    border-radius: 3px;
+    padding-bottom: 50px;
+}
+
+.projects h3 {
+    margin-top: 20px;
+}
+
+.handling {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.handling .work {
+    padding: 15px 40px 10px 20px;
+}
+
+.handling .work .lists ul li {
+    list-style-type: none;
+    line-height: 45px;
+}
+
+.handling .work .lists ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.handling .work .lists ul li a span{
+    color: blue;
+}
+
+.handling .work .lists ul li:hover a {
+    text-decoration: underline;
+    transform: scale(1.2, 2);
+}
+
+.records {
+    text-align: center;
+    background-color: #1b2437f4;
+    color: white;
+    width: 70%;
+    margin-top: 30px;
+    border-radius: 3px;
+    padding-bottom: 50px;
+}
+
+.records h3 {
+    margin-top: 20px;
+}
+
+.certificates {
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+    margin-top: 50px;
+}
+
+#certificates2{
+    margin-top: 25px;
+}
+
+.certificates a img {
+    width: 30vh;
+}
+
+.contact {
+    text-align: center;
+    background-color: #1b2437f4;
+    color: white;
+    width: 70%;
+    margin-top: 30px;
+    border-radius: 3px;
+    padding-bottom: 40px;
+}
+
+.contact .details {
+    margin-top: 100px;
+}
+
+.contact .details h5 {
+    font-size: 25px;
+    font-family: 'Rozha One', serif;
+    font-weight: 500;
+}
+
+.contact .end {
+    margin-top: 120px;
+    font-family: 'Libre Caslon Display', serif;
+}
+
+.nav-content {
+    text-align: center;
+    background-color: #2322227c;
+    width: 70%;
+    backdrop-filter: blur(15px);
+    border-radius: 3px;
+    padding: 30px;
+    height: 80px;
+    display: none;
+    position: fixed;
+    bottom: 0px;
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: center;
+    column-gap: 30px;
+}
+
+.footer-nav a {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
