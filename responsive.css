@@ -7,6 +7,15 @@
         display: none;
     }
 
+    .rect{
+        margin-left: 3px;
+    }
+
+    .rect #lg-dk{
+        margin-left: -20px;
+        margin-top:-5px ;
+    }
+
     .profile {
         width: 97.6%;
         margin-left: 5px;
@@ -14,6 +23,10 @@
 
     .profile .resume {
         padding-bottom: 20px;
+    }
+
+    .profile p {
+        width: 92%;
     }
 
     .what-i-do {
@@ -34,6 +47,10 @@
 
     .what-i-do #skills2 {
         margin-top: 18px;
+    }
+
+    .what-i-do p {
+        width: 92%;
     }
 
     .nav-content {
@@ -86,6 +103,12 @@
     .handling {
         flex-wrap: wrap;
         row-gap: 20px;
+    }
+
+    .contact .details h5 {
+        font-size: 18px;
+        font-family: 'Rozha One', serif;
+        font-weight: 500;
     }
 }
 
