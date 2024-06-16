@@ -280,7 +280,7 @@ nav {
 .footer-nav {
     display: flex;
     justify-content: center;
-    column-gap: 30px;
+    column-gap: 20px;
 }
 
 .footer-nav a {
