@@ -193,9 +193,6 @@ nav {
 .handling .work .lists ul li {
     list-style-type: none;
     line-height: 45px;
-    width: 300px;
-    text-align: center;
-    background-color:red
 }
 
 .handling .work .lists ul li a {
