@@ -7,13 +7,13 @@
         display: none;
     }
 
-    .rect{
+    .rect {
         margin-left: 3px;
     }
 
-    .rect #lg-dk{
+    .rect #lg-dk {
         margin-left: -20px;
-        margin-top:-5px ;
+        margin-top: -5px;
     }
 
     .profile {
@@ -113,7 +113,6 @@
 }
 
 
-
 @media screen and (max-width:980px) and (min-width:768px) {
     .what-i-do .skills {
         overflow: hidden;
@@ -128,6 +127,12 @@
 
     #certificates2 {
         margin-top: 22px;
+    }
+
+    .handling {
+        flex-wrap: wrap;
+        margin-top: 50px;
+        row-gap: 50px;
     }
 
 
