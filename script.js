@@ -52,9 +52,10 @@ $(`#lg-dk`).click(function () {
 
 
 
+
 function downloadPDF() {
     var a = document.createElement('a');
-    a.href = './certificates/kartiksinghbora _resume.pdf';
+    a.href = './certificates/kartiksinghbora_resume.pdf';
     a.download = 'kartiksinghbora_resume.pdf';
     document.body.appendChild(a);
     a.click();
