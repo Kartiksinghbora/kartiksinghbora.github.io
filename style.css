@@ -6,6 +6,7 @@
 
 body {
     background-color: #19202E;
+    cursor:none;
 }
 
 nav {
@@ -288,3 +289,26 @@ nav {
     text-align: center;
     text-decoration: none;
 }
+
+.cursor {
+    position: absolute; 
+    border-radius: 50%;
+    pointer-events: none; 
+    transform: translate(-50%, -50%);
+  }
+  
+  #primary-cursor {
+    width: 10px;
+    height: 10px;
+    background-color: rgba(0, 0, 0, 0.5); 
+    z-index: 1000; 
+  }
+  
+  #secondary-cursor {
+    width: 20px; 
+    height: 20px;
+    background-color: rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+    z-index: 999; 
+    transition: transform 0.4s ease-out;
+  }
