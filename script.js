@@ -2,15 +2,10 @@ $(document).ready(function () {
     $('#cross').click(function () {
         $('.navigation').css({ "visibility": "hidden" })
     });
-
     $('#menu').click(function () {
         $('.navigation').css({ "visibility": "visible" })
     });
-
 });
-
-
-
 var flag = true;
 $(`#lg-dk`).click(function () {
     if (flag) {
@@ -26,9 +21,6 @@ $(`#lg-dk`).click(function () {
         $("button").css({"background-color":"grey"});
         $(".links a img").css({"background-color":"grey","color":"white"});
         $(".navigation").css({"background-color":"grey"});
-
-
-
     } else {
         $("body").css({ "background-color": "#19202E" });
         $(`#lg-dk`).attr("src", "./images/lightmode.png"); 
@@ -42,16 +34,9 @@ $(`#lg-dk`).click(function () {
         $("button").css({"background-color":"#2b36495f"});
         $(".links a img").css({"background-color":"#21293a"});
         $(".navigation").css({"background-color":"#2b36495f"});
-
-
     }
     flag = !flag;
 });
-
-
-
-
-
 
 function downloadPDF() {
     var a = document.createElement('a');
@@ -61,31 +46,6 @@ function downloadPDF() {
     a.click();
     document.body.removeChild(a);
 }
-
-
-
-
-// $(document).ready(function() {
-//     var smallScreen = window.matchMedia("(max-width: 780px)");
-
-//     if (smallScreen.matches) {
-//         $('#menu').click(function() {
-//             $('.nav-content').css({"background-color":"red"});
-//         });
-//     }
-
-//     // Optionally, handle window resize to apply or remove the listener
-//     smallScreen.addListener(function(e) {
-//         if (e.matches) {
-//             $('#menu').off('click').on('click', function() {
-//                 $('.nav-content').css({"background-color":"red"});
-//             });
-//         } else {
-//             $('#menu').off('click');
-//         }
-//     });
-// });
-
 
 $(document).ready(function () {
     var smallScreen = window.matchMedia("(max-width: 780px)");
@@ -115,4 +75,23 @@ $(document).ready(function () {
         }
     });
 });
+
+
+document.addEventListener('mousemove', (e) => {
+    const primaryCursor = document.getElementById('primary-cursor');
+    const secondaryCursor = document.getElementById('secondary-cursor');
+    
+    primaryCursor.style.left = `${e.pageX}px`;
+    primaryCursor.style.top = `${e.pageY}px`;  
+    let x = e.pageX;
+    let y = e.pageY;
+  
+    const updateSecondaryCursor = () => {
+      secondaryCursor.style.left = `${x}px`;
+      secondaryCursor.style.top = `${y}px`;
+    };
+    setTimeout(updateSecondaryCursor, 100); 
+
+  });
+  
 
