@@ -1,156 +1,22 @@
-@media screen and (max-width:768px) {
-    .links {
-        display: none;
+@media screen and (max-width:500px) {
+    .currently-work,
+    .game-short-line {
+        font-size: 12px;
     }
 
-    .navinlinks {
-        display: none;
-    }
-
-    .rect {
-        margin-left: 3px;
-    }
-
-    .rect #lg-dk {
-        margin-left: -20px;
-        margin-top: -5px;
-    }
-
-    .profile {
-        width: 97.6%;
-        margin-left: 5px;
-    }
-
-    .profile .resume {
-        padding-bottom: 20px;
-    }
-
-    .profile p {
-        width: 92%;
-    }
-
-    .what-i-do {
-        width: 97.6%;
-        margin-left: 5px;
-    }
-
-    .what-i-do .skills {
-        flex-wrap: wrap;
-        row-gap: 25px;
-
-    }
-
-    .what-i-do .skills img {
-        width: 70px;
-        height: 70px;
-    }
-
-    .what-i-do #skills2 {
-        margin-top: 18px;
-    }
-
-    .what-i-do p {
-        width: 92%;
-    }
-
-    .nav-content {
-        width: 97.6%;
-        margin-left: 5px;
-        display: block;
-    }
-
-    .contact {
-        width: 97.6%;
-        margin-left: 5px;
-        padding-bottom: 90px;
-
-    }
-
-    .contact form .column {
-        flex-wrap: wrap;
-        row-gap: 10px;
-    }
-
-    .contact form textarea {
-        width: 350px;
-        height: 150px;
-        margin-top: -10px;
-    }
-
-    .records {
-        width: 97.6%;
-        margin-left: 5px;
-    }
-
-    .certificates {
-        flex-wrap: wrap;
-        row-gap: 20px;
-    }
-
-    .certificates a img {
-        width: 20vh;
-    }
-
-    #certificates2 {
-        margin-top: 20px;
-    }
-
-    .projects {
-        width: 97.6%;
-        margin-left: 5px;
-    }
-
-    .handling {
-        flex-wrap: wrap;
-        row-gap: 20px;
-    }
-
-    .contact .details h5 {
-        font-size: 18px;
-        font-family: 'Rozha One', serif;
-        font-weight: 500;
+    .key {
+        width: 62px;
+        height: 62px;
     }
 }
 
 
-@media screen and (max-width:980px) and (min-width:768px) {
-    .what-i-do .skills {
-        overflow: hidden;
-        flex-wrap: wrap;
-        row-gap: 25px;
+@media screen and (max-width:1228px) and (min-width:1024px) {
+    .music-box {
+        width: 38%;
     }
 
-    .certificates {
-        flex-wrap: wrap;
-        row-gap: 20px;
-    }
-
-    #certificates2 {
-        margin-top: 22px;
-    }
-
-    .handling {
-        flex-wrap: wrap;
-        margin-top: 50px;
-        row-gap: 50px;
-    }
-
-
-}
-
-@media screen and (max-width:1024px) and (min-width:980px) {
-    .what-i-do .skills {
-        overflow: hidden;
-        flex-wrap: wrap;
-        row-gap: 25px;
-    }
-
-    .certificates {
-        flex-wrap: wrap;
-        row-gap: 20px;
-    }
-
-    #certificates2 {
-        margin-top: 22px;
+    .more-project-box {
+        width: 27%;
     }
 }
